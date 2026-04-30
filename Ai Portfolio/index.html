@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdullah - AI Engineer Portfolio | Premium</title>
+    <meta name="description" content="Premium AI Engineer Portfolio - Building Intelligent Systems with Data & AI">
+    
+    <!-- Premium CSS Design System -->
+    <link rel="stylesheet" href="styles-premium.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Chart for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Animations & Transitions System -->
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Muhammad Abdullah</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Dashboard</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#insights" class="nav-link">Insights</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                        System Online
+                    </div>
+                    <h1 class="hero-title">
+                        Building Intelligent Systems with <span class="highlight">Data & AI</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Aspiring AI Engineer | Python • C++ • HTML • CSS | Machine Learning Enthusiast
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Explore Work
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="chart-container">
+                        <canvas id="heroChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">PROFILE</div>
+                <h2 class="section-title">Profile Overview</h2>
+                <div class="section-underline"></div>
+            </div>
+            
+            <!-- Cards Wrapper -->
+            <div class="cards-wrapper">
+                <div class="profile-card reveal-scale">
+                    <div class="profile-content">
+                        <!-- Profile Section Only (No Stats) -->
+                        <div class="profile-section-full">
+                            <div class="profile-image-container">
+                                <div class="profile-img-wrapper">
+                                    <img src="img.jpg" alt="Muhammad Abdullah" class="profile-img">
+                                </div>
+                            </div>
+                            <div class="profile-text">
+                                <h3>Muhammad Abdullah</h3>
+                                <p>Aspiring AI Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tags Section -->
+                    <div class="profile-badges">
+                        <span class="badge">Python</span>
+                        <span class="badge">C++</span>
+                        <span class="badge">Web Development</span>
+                        <span class="badge">AI</span>
+                        <span class="badge">Git</span>
+                    </div>
+                </div>
+                <div class="about-block reveal">
+                    <div class="about-header">
+                        <h3>About</h3>
+                    </div>
+                    <div class="about-content">
+                        <div class="quote-icon">"</div>
+                        <p class="about-text">
+                            Passionate about building intelligent systems that solve real-world problems. Specializing in machine learning, data analysis, and web development. Always eager to learn new technologies and tackle challenging projects. I believe in continuous learning and delivering innovative solutions that make a meaningful impact. My approach combines technical expertise with creative problem-solving to build robust and scalable applications. Focused on building scalable, efficient, and user-centric solutions that bridge the gap between data and real-world impact. Committed to continuous growth, collaboration, and leveraging emerging technologies to create innovative digital experiences.
+                        </p>
+                        <div class="quote-icon quote-icon-end">"</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats Row (Separate Section) -->
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span class="stat-number">12+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Months Experience</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Languages</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">PROJECTS</div>
+                <h2 class="section-title">Project Case Studies</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal d1" data-project="1">
+                    <div class="project-header">
+                        <h3>Expence Tracker
+Application</h3>
+                        <span class="project-status completed">COMPLETED</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Accuracy</span>
+                            <span class="metric-value">High</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Tracking</span>
+                            <span class="metric-value">Enabled</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <p>Tracks expenses and income, stores transactions, and provides graphical insights for better financial management.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <button class="project-expand" onclick="window.open('https://expensetrackerrupees.netlify.app/', '_blank')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card reveal d2" data-project="2">
+                    <div class="project-header">
+                        <h3>Universal GPA Calculator</h3>
+                        <span class="project-status completed">COMPLETED</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Calculation</span>
+                            <span class="metric-value">Accurate</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Tracking</span>
+                            <span class="metric-value">Enabled</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <p>Calculates GPA using assessment marks and percentages, with charts and stored data for CGPA tracking.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <button class="project-expand" onclick="window.open('https://text-tool--abdullahkhal108.replit.app/', '_blank')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card reveal d3" data-project="3">
+                    <div class="project-header">
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <span class="project-status in-progress">In Progress</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Accuracy</span>
+                            <span class="metric-value">91.3%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Efficiency</span>
+                            <span class="metric-value">+67%</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <p>Building predictive models for business forecasting with interactive visualization dashboard.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <button class="project-expand" onclick="window.open('Predictive Analytics Dashboard.py', '_blank')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">SKILLS</div>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-chart reveal">
+                    <div class="chart-header">
+                        <div class="enhanced-heading">
+                            <h3>Skill Proficiency</h3>
+                            <p class="chart-subtitle">Technical skills and proficiency levels</p>
+                        </div>
+                        <div class="chart-legend">
+                            <span class="legend-item advanced">Advanced</span>
+                            <span class="legend-item intermediate">Intermediate</span>
+                            <span class="legend-item beginner">Beginner</span>
+                        </div>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <div class="skill-info">
+                                    <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                    <span class="skill-name">Python</span>
+                                </div>
+                                <span class="skill-level advanced">90%</span>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <div class="skill-info">
+                                    <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                                        <rect x="9" y="9" width="6" height="6"></rect>
+                                        <line x1="9" y1="1" x2="9" y2="4"></line>
+                                        <line x1="15" y1="1" x2="15" y2="4"></line>
+                                        <line x1="9" y1="20" x2="9" y2="23"></line>
+                                        <line x1="15" y1="20" x2="15" y2="23"></line>
+                                        <line x1="20" y1="9" x2="23" y2="9"></line>
+                                        <line x1="20" y1="14" x2="23" y2="14"></line>
+                                        <line x1="1" y1="9" x2="4" y2="9"></line>
+                                        <line x1="1" y1="14" x2="4" y2="14"></line>
+                                    </svg>
+                                    <span class="skill-name">C++</span>
+                                </div>
+                                <span class="skill-level intermediate">75%</span>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <div class="skill-info">
+                                    <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                    <span class="skill-name">Web Dev</span>
+                                </div>
+                                <span class="skill-level intermediate">70%</span>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <div class="skill-info">
+                                    <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                        <circle cx="12" cy="6" r="2"></circle>
+                                        <circle cx="12" cy="18" r="2"></circle>
+                                        <circle cx="18" cy="6" r="2"></circle>
+                                        <circle cx="18" cy="18" r="2"></circle>
+                                    </svg>
+                                    <span class="skill-name">AI/ML</span>
+                                </div>
+                                <span class="skill-level intermediate">60%</span>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-progress" data-progress="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <div class="skill-info">
+                                    <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                        <path d="M12 6v6l4.24 2.12"></path>
+                                    </svg>
+                                    <span class="skill-name">Generative AI</span>
+                                </div>
+                                <span class="skill-level advanced">80%</span>
+                            </div>
+                            <div class="skill-bar-container">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-categories reveal">
+                    <div class="categories-header">
+                        <div class="enhanced-heading">
+                            <h3>Skill Categories</h3>
+                            <p class="categories-subtitle">Technical domains & expertise areas</p>
+                        </div>
+                    </div>
+                    <div class="tabs-navigation">
+                        <button class="tab-button active" data-tab="development">
+                            <svg class="tab-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                            <span>Development</span>
+                        </button>
+                        <button class="tab-button" data-tab="ai">
+                            <svg class="tab-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                <circle cx="12" cy="6" r="2"></circle>
+                                <circle cx="12" cy="18" r="2"></circle>
+                                <circle cx="18" cy="6" r="2"></circle>
+                                <circle cx="18" cy="18" r="2"></circle>
+                            </svg>
+                            <span>AI/ML</span>
+                        </button>
+                        <button class="tab-button" data-tab="tools">
+                            <svg class="tab-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                            <span>Tools</span>
+                        </button>
+                        <button class="tab-button" data-tab="other">
+                            <svg class="tab-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <span>Other</span>
+                        </button>
+                    </div>
+                    <div class="tab-panel active" id="development">
+                        <div class="tab-icon-large">
+                            <svg class="tab-icon-large" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h4 class="tab-title">Development Skills</h4>
+                        <ul class="tab-list">
+                            <li>Python Programming (Basics & Problem Solving)</li>
+                            <li>C++ Fundamentals</li>
+                            <li>HTML & CSS (Responsive Design Basics)</li>
+                            <li>Web App Development (Frontend Projects)</li>
+                            <li>Problem Solving & Logic Building</li>
+                        </ul>
+                    </div>
+                    <div class="tab-panel" id="ai">
+                        <div class="tab-icon-large">
+                            <svg class="tab-icon-large" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                <circle cx="12" cy="6" r="2"></circle>
+                                <circle cx="12" cy="18" r="2"></circle>
+                                <circle cx="18" cy="6" r="2"></circle>
+                                <circle cx="18" cy="18" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h4 class="tab-title">Network</h4>
+                        <ul class="tab-list">
+                            <li>Python for Machine Learning (NumPy, Pandas Basics)</li>
+                            <li>Basic Machine Learning Concepts</li>
+                            <li>Intro to Supervised Learning</li>
+                            <li>Problem Solving with Data</li>
+                            <li>Learning AI Fundamentals</li>
+                        </ul>
+                    </div>
+                    <div class="tab-panel" id="tools">
+                        <div class="tab-icon-large">
+                            <svg class="tab-icon-large" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="tab-title">Tools & Frameworks</h4>
+                        <ul class="tab-list">
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Jupyter Notebook</li>
+                            <li>Google Colab</li>
+                            <li>Cursor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-panel" id="other">
+                        <div class="tab-icon-large">
+                            <svg class="tab-icon-large" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="tab-title">Other Skills</h4>
+                        <ul class="tab-list">
+                            <li>Data Analysis & Visualization</li>
+                            <li>Mathematics & Statistics</li>
+                            <li>Problem Solving</li>
+                            <li>Communication & Teamwork</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">EXPERIENCE</div>
+                <h2 class="section-title">Experience Timeline</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Python Development</h3>
+                            <span class="timeline-duration">Ongoing</span>
+                        </div>
+                        <p class="timeline-organization">Self-Taught & Projects</p>
+                        <ul class="timeline-contributions">
+                            <li>Strong grip on Python fundamentals (NumPy, Pandas, etc.)</li>
+                            <li>Experience with data structures and algorithms</li>
+                            <li>Building practical applications and projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left d1">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>C++ Programming</h3>
+                            <span class="timeline-duration">COMPLETED</span>
+                        </div>
+                        <p class="timeline-organization">Academic & Personal Projects</p>
+                        <ul class="timeline-contributions">
+                            <li>Strong understanding of C++ fundamentals and syntax</li>
+                            <li>Developed scenario-based projects to apply core programming concepts</li>
+                            <li>Practiced problem-solving using basic algorithms and logic building</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left d2">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Development</h3>
+                            <span class="timeline-duration">COMPLETED</span>
+                        </div>
+                        <p class="timeline-organization">Projects & Practical Experience</p>
+                        <ul class="timeline-contributions">
+                            <li>Built responsive websites using HTML and CSS</li>
+                            <li>Developed basic web applications and interactive UI components</li>
+                            <li>Gained hands-on experience in frontend development and layout design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insights Section -->
+    <section id="insights" class="insights">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">INSIGHTS</div>
+                <h2 class="section-title">Future Research Directions</h2>
+                <div class="section-underline"></div>
+            </div>
+            
+            <!-- Research Cards -->
+            <div class="research-grid">
+                <div class="research-card reveal d1">
+                    <div class="research-card-header">
+                        <div class="research-card-header-left">
+                            <div class="research-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 class="research-title-header">Predictive Analytics</h4>
+                        </div>
+                        <div class="research-badge active-focus">Active Focus</div>
+                    </div>
+                    <p class="research-description">
+                        Developing advanced forecasting systems and data-driven decision-making models. Focus on time-series analysis, pattern recognition, and real-world business intelligence applications with measurable impact.
+                    </p>
+                    <div class="research-tags">
+                        <span class="tag">Time Series Analysis</span>
+                        <span class="tag">Pattern Recognition</span>
+                        <span class="tag">Business Intelligence</span>
+                        <span class="tag">Risk Prediction</span>
+                    </div>
+                </div>
+
+                <div class="research-card reveal d2">
+                    <div class="research-card-header">
+                        <div class="research-card-header-left">
+                            <div class="research-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4 class="research-title-header">Autonomous Systems</h4>
+                        </div>
+                        <div class="research-badge emerging-interest">Emerging Interest</div>
+                    </div>
+                    <p class="research-description">
+                        Building intelligent, self-operating systems that adapt and make decisions independently. Research focus on robotics, self-driving systems, and reinforcement learning for real-time autonomous decision-making.
+                    </p>
+                    <div class="research-tags">
+                        <span class="tag">Reinforcement Learning</span>
+                        <span class="tag">Robotics</span>
+                        <span class="tag">Self-Driving Systems</span>
+                        <span class="tag">Decision Making</span>
+                    </div>
+                </div>
+
+                <div class="research-card reveal d3">
+                    <div class="research-card-header">
+                        <div class="research-card-header-left">
+                            <div class="research-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <h4 class="research-title-header">AI for Disease Detection</h4>
+                        </div>
+                        <div class="research-badge high-priority">High Priority</div>
+                    </div>
+                    <p class="research-description">
+                        Pioneering AI applications in healthcare for medical imaging, diagnostic models, and early disease prediction. Focus on impact-driven innovation and real-world problem solving with measurable patient outcomes.
+                    </p>
+                    <div class="research-tags">
+                        <span class="tag">Medical Imaging</span>
+                        <span class="tag">Diagnostic Models</span>
+                        <span class="tag">Early Detection</span>
+                        <span class="tag">Patient Outcomes</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Journey Timeline -->
+            <div class="timeline-section">
+                <h2 class="timeline-title">Research Journey Timeline</h2>
+                <div class="timeline-grid">
+                    <div class="timeline-box reveal d4 active">
+                        <div class="timeline-indicator"></div>
+                        <h4 class="timeline-box-title">Foundation Building</h4>
+                        <p class="timeline-box-text">Core Python, Data Science, and ML fundamentals</p>
+                        <span class="timeline-year">2025–26</span>
+                    </div>
+
+                    <div class="timeline-box reveal d5">
+                        <div class="timeline-indicator"></div>
+                        <h4 class="timeline-box-title">Specialization Phase</h4>
+                        <p class="timeline-box-text">Deep dive into Predictive Analytics and Healthcare AI</p>
+                        <span class="timeline-year">2027</span>
+                    </div>
+
+                    <div class="timeline-box reveal d6">
+                        <div class="timeline-indicator"></div>
+                        <h4 class="timeline-box-title">Advanced Research</h4>
+                        <p class="timeline-box-text">Autonomous Systems and cutting-edge AI applications</p>
+                        <span class="timeline-year">2028</span>
+                    </div>
+
+                    <div class="timeline-box reveal d7">
+                        <div class="timeline-indicator"></div>
+                        <h4 class="timeline-box-title">Industry Impact</h4>
+                        <p class="timeline-box-text">Real-world applications and commercial deployment</p>
+                        <span class="timeline-year">2029+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">CONTACT</div>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-panel">
+                <div class="contact-form reveal">
+                    <h3>Send Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-quick reveal d1">
+                    <h3>Quick Connect</h3>
+                    <div class="quick-links">
+                        <a href="mailto:abdullahkhalid5806@gmail.com" class="quick-link">
+                            <i class="fas fa-envelope icon-email"></i>
+                            abdullahkhalid5806@gmail.com
+                        </a>
+                        <a href="https://github.com/abdullah-devcore" class="quick-link">
+                            <i class="fab fa-github icon-github"></i>
+                            github.com/abdullah-devcore
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammad-abdullah-394107385" class="quick-link">
+                            <i class="fab fa-linkedin icon-linkedin"></i>
+                            linkedin.com/in/muhammad-abdullah
+                        </a>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt icon-location"></i> Lahore, Pakistan</p>
+                        <p><i class="fas fa-phone icon-phone"></i> +92 303 4391533</p>
+                        <p><i class="fas fa-briefcase icon-availability"></i> Available for Remote Work</p>
+                        <p><i class="fas fa-clock icon-time"></i> Response Time: 12–24 Hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Left Section - Brand Identity -->
+                <div class="footer-left">
+                    <div class="footer-brand">
+                        <h2 class="footer-name">Muhammad Abdullah</h2>
+                        <p class="footer-tagline">Building intelligent systems with AI, Machine Learning, and Data Science</p>
+                        <p class="footer-description">Passionate about creating innovative AI solutions that transform data into actionable insights.</p>
+                    </div>
+                </div>
+                
+                <!-- Center Section - Quick Links -->
+                <div class="footer-center">
+                    <h4 class="footer-heading quick-links">Quick Links</h4>
+                    <nav class="footer-nav">
+                        <a href="#hero" class="footer-link">Dashboard</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#skills" class="footer-link">Skills</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </nav>
+                </div>
+                
+                <!-- Right Section - Social Links -->
+                <div class="footer-right">
+                    <h4 class="footer-heading connect">Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com" class="footer-social-link" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="footer-social-link" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:abdullah@example.com" class="footer-social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Bottom Strip -->
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> Muhammad Abdullah. All rights reserved.</p>
+            </div>
+        </div>
+        
+            </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Premium Portfolio JavaScript
+        class PremiumPortfolio {
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                this.initNavigation();
+                this.initAnimations();
+                this.initChart();
+                this.initTabs();
+                this.initContactForm();
+                this.initScrollEffects();
+            }
+
+            // Navigation functionality
+            initNavigation() {
+                const navToggle = document.querySelector('.nav-toggle');
+                const navMenu = document.querySelector('.nav-menu');
+                const navLinks = document.querySelectorAll('.nav-link');
+
+                navToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                    navToggle.classList.toggle('active');
+                });
+
+                navLinks.forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const targetId = link.getAttribute('href');
+                        const targetSection = document.querySelector(targetId);
+                        
+                        if (targetSection) {
+                            const offsetTop = targetSection.offsetTop - 68;
+                            window.scrollTo({
+                                top: offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('active');
+                    });
+                });
+            }
+
+            // Animation system
+            initAnimations() {
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            
+                            // Special handling for timeline
+                            if (entry.target.classList.contains('timeline')) {
+                                entry.target.classList.add('in-view');
+                            }
+                        }
+                    });
+                }, observerOptions);
+
+                // Observe all elements with animation classes
+                document.querySelectorAll('.reveal, .reveal-left, .reveal-scale, .timeline, .profile-card, .about-block, .research-card, .timeline-box').forEach(el => {
+                    observer.observe(el);
+                });
+
+                // Animate skill bars when visible
+                const skillObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const progressBars = entry.target.querySelectorAll('.skill-progress');
+                            progressBars.forEach(bar => {
+                                const progress = bar.dataset.progress;
+                                setTimeout(() => {
+                                    bar.style.width = progress + '%';
+                                }, 200);
+                            });
+                            skillObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.5 });
+
+                document.querySelectorAll('.skills-chart').forEach(el => {
+                    skillObserver.observe(el);
+                });
+            }
+
+            // Chart initialization
+            initChart() {
+                const canvas = document.getElementById('heroChart');
+                if (!canvas) return;
+
+                const ctx = canvas.getContext('2d');
+                
+                // Fixed chart data with Generative AI and updated AI/ML value
+                const data = {
+                    labels: ['Python', 'C++', 'Web Dev', 'AI/ML', 'Generative AI'],
+                    datasets: [{
+                        label: 'Proficiency',
+                        data: [90, 75, 70, 60, 80],
+                        backgroundColor: [
+                            '#3b82f6',
+                            '#14b8a6', 
+                            '#f97316',
+                            '#8b5cf6',
+                            '#06b6d4'
+                        ],
+                        borderRadius: 8,
+                        barThickness: 40
+                    }]
+                };
+
+                const config = {
+                    type: 'bar',
+                    data: data,
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0,0,0,0.8)',
+                                titleColor: '#fff',
+                                bodyColor: '#fff',
+                                borderColor: '#06b6d4',
+                                borderWidth: 1,
+                                cornerRadius: 8,
+                                padding: 12,
+                                displayColors: false,
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.parsed.y + '%';
+                                    }
+                                }
+                            },
+                            datalabels: {
+                                color: '#ffffff',
+                                font: {
+                                    weight: 'bold',
+                                    size: 13
+                                },
+                                anchor: 'end',
+                                align: 'top',
+                                formatter: (value) => value + '%'
+                            }
+                        },
+                        scales: {
+                            x: {
+                                grid: {
+                                    color: 'rgba(255,255,255,0.05)',
+                                    drawBorder: false
+                                },
+                                ticks: {
+                                    color: '#e2e8f0',
+                                    font: {
+                                        size: 11,
+                                        weight: 'bold'
+                                    },
+                                    maxRotation: 0,
+                                    autoSkip: false
+                                }
+                            },
+                            y: {
+                                beginAtZero: true,
+                                max: 100,
+                                grid: {
+                                    color: 'rgba(255,255,255,0.05)',
+                                    drawBorder: false
+                                },
+                                ticks: {
+                                    color: '#94a3b8',
+                                    font: {
+                                        size: 11
+                                    },
+                                    callback: function(value) {
+                                        return value + '%';
+                                    }
+                                }
+                            }
+                        },
+                        animation: {
+                            duration: 2000,
+                            easing: 'easeOutQuart'
+                        }
+                    }
+                };
+
+                new Chart(ctx, config);
+            }
+
+            // Tab functionality
+            initTabs() {
+                const tabButtons = document.querySelectorAll('.tab-button');
+                const tabPanels = document.querySelectorAll('.tab-panel');
+
+                tabButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        const targetTab = button.dataset.tab;
+                        
+                        // Remove active class from all buttons and panels
+                        tabButtons.forEach(btn => btn.classList.remove('active'));
+                        tabPanels.forEach(panel => panel.classList.remove('active'));
+                        
+                        // Add active class to clicked button and corresponding panel
+                        button.classList.add('active');
+                        document.getElementById(targetTab).classList.add('active');
+                    });
+                });
+            }
+
+            // Contact form
+            initContactForm() {
+                const form = document.getElementById('contactForm');
+                if (!form) return;
+
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    // Get form data
+                    const formData = new FormData(form);
+                    const data = Object.fromEntries(formData);
+                    
+                    // Here you would normally send the data to a server
+                    console.log('Form submitted:', data);
+                    
+                    // Show success message
+                    const button = form.querySelector('button[type="submit"]');
+                    const originalText = button.innerHTML;
+                    button.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+                    button.disabled = true;
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.disabled = false;
+                        form.reset();
+                    }, 3000);
+                });
+            }
+
+            // Scroll effects
+            initScrollEffects() {
+                const navbar = document.querySelector('.navbar');
+                
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 50) {
+                        navbar.classList.add('scrolled');
+                    } else {
+                        navbar.classList.remove('scrolled');
+                    }
+                });
+
+                // Active navigation link
+                const sections = document.querySelectorAll('section[id]');
+                const navLinks = document.querySelectorAll('.nav-link');
+
+                window.addEventListener('scroll', () => {
+                    let current = '';
+                    
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop - 100;
+                        const sectionHeight = section.clientHeight;
+                        
+                        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                            current = section.getAttribute('id');
+                        }
+                    });
+
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + current) {
+                            link.classList.add('active');
+                        }
+                    });
+                });
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new PremiumPortfolio();
+            
+            // Set current year dynamically
+            const currentYearElement = document.getElementById('current-year');
+            if (currentYearElement) {
+                currentYearElement.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+
+    <!-- Animations Engine -->
+    <script src="animations.js"></script>
+</body>
+</html>
